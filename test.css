@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+  grid-gap: 10px; /* Add spacing between images */
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%; /* Make images fill their containers */
+  height: auto; /* Maintain aspect ratio */
+}
