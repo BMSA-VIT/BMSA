@@ -1,0 +1,120 @@
+/* Team Section */
+
+.section-title{
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+#team {
+  background: var(--bg-color);
+  padding: 10rem 1rem;
+}
+
+/* Responsive grid layout */
+.team-cards {
+  display: grid;
+  gap: 20px;
+  padding: 0px 25px;
+  justify-items: center;
+  grid-template-areas: 
+    ". card1 card2 card3 ."
+    "card4 card5 card6 card7 card8"
+    "card9 card10 card11 card12 card13";
+}
+
+/* Assign each card to a specific grid area */
+.team-member-card:nth-child(1) { grid-area: card1; }
+.team-member-card:nth-child(2) { grid-area: card2; }
+.team-member-card:nth-child(3) { grid-area: card3; }
+.team-member-card:nth-child(4) { grid-area: card4; }
+.team-member-card:nth-child(5) { grid-area: card5; }
+.team-member-card:nth-child(6) { grid-area: card6; }
+.team-member-card:nth-child(7) { grid-area: card7; }
+.team-member-card:nth-child(8) { grid-area: card8; }
+.team-member-card:nth-child(9) { grid-area: card9; }
+.team-member-card:nth-child(10) { grid-area: card10; }
+.team-member-card:nth-child(11) { grid-area: card11; }
+.team-member-card:nth-child(12) { grid-area: card12; }
+.team-member-card:nth-child(13) { grid-area: card13; }
+
+/* Tablet screen adjustments */
+@media (max-width: 1199px) {
+  .team-cards {
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card5 card6"
+      "card7 card8 card9"
+      "card10 card11 card12"
+      "card13 . .";
+  }
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+  .team-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8"
+      "card9 card10"
+      "card11 card12"
+      "card13 .";
+  }
+}
+
+@media (max-width: 480px) {
+  .team-cards {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8"
+      "card9"
+      "card10"
+      "card11"
+      "card12"
+      "card13";
+  }
+}
+
+/* Card styling */
+.team-member-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team-member-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.team-member-content {
+  padding: 20px;
+}
+
+.team-member-content h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.team-member-content p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #000000;
+}

@@ -10,26 +10,38 @@ function Toggle() {
     }
 
 }
+// function teamToggle() {
+//     const teamnavbar = document.getElementById("teamnav");
+//     // navbar.style.display="block";
+//     console.log('clicked');
+//     if (teamnavbar.style.display === "block") {
+//         teamnavbar.style.display = "none";
+//     }
+//     else {
+//         teamnavbar.style.display = "block";
+//     }
+
+// }
 
 
-var swiper = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 100,
-      modifier: 2,
-      slideShadows: true,
-    },
-    loop: true,
-    autoplay: {
-        delay: 6000, 
-        disableOnInteraction: false, 
-    },
-});
+// var swiper = new Swiper(".mySwiper", {
+//     effect: "coverflow",
+//     grabCursor: true,
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     coverflowEffect: {
+//       rotate: 0,
+//       stretch: 0,
+//       depth: 100,
+//       modifier: 2,
+//       slideShadows: true,
+//     },
+//     loop: true,
+//     autoplay: {
+//         delay: 6000, 
+//         disableOnInteraction: false, 
+//     },
+// });
 
 
 // function flipCard(card) {
