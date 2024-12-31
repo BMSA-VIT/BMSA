@@ -180,7 +180,7 @@ section {
   /* background-image: linear-gradient(to left, #13385c 0%, black 100%); */
   /* background: var(--bg-color); */
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  padding: 5rem 9% 2rem;
 }
 
 /* Content  */
@@ -374,7 +374,7 @@ section {
 }
 
 .events h2 {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -1039,7 +1039,7 @@ section {
   }
 
   section {
-    padding: 10rem 3% 2rem;
+    padding: 5rem 3% 2rem;
   }
 
   .team {
@@ -1124,6 +1124,32 @@ section {
 
   .dropdown:hover .dropdown-content {
     display: none;
+  }
+
+  #home {
+    min-height: 33vh;
+    height: 30vh;
+    margin-top: 10vh;
+  }
+
+  .home-content {
+    justify-content: start;
+  }
+
+  .home-content h3{
+    font-size: 2rem;
+  }
+
+  .home-content h1{
+    font-size: 5rem;
+  }
+
+  .social-media a {
+    margin: 1rem 1.5rem 3rem 0;
+  }
+
+  .event-container .event-box{
+    height: 80vh;
   }
 
 
