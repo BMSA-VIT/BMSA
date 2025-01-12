@@ -439,7 +439,6 @@ section {
 
 .main-convenor{
   background-color: var(--sec-bg-color);
-
 }
 
 .main-convenor h2{
@@ -471,6 +470,26 @@ section {
   line-height: 1.5;
 }
 
+.conmain {
+  display: flex;
+  flex-direction: row;
+}
+
+.pconvenor {
+  width: 40vw;
+}
+
+#quoteconvenor {
+  color: #e9d789;
+  font-size: 1.7rem;
+}
+
+#infoconvenor{
+  font-size: 1.4rem;
+}
+
+
+
 /* Responsive Styling */
 @media (max-width: 768px) {
   .convenor {
@@ -490,7 +509,7 @@ section {
   }
 
   .convenor-text {
-    font-size: 0.85rem; /* Reduces text size for smaller screens */
+    font-size: 1.85rem; /* Reduces text size for smaller screens */
   }
 }
 
@@ -836,7 +855,7 @@ section {
 
 
 .footer .footer-top .social-links a {
-  font-size: 1.125rem;
+  font-size: 3.125rem;
   display: inline-block;
   background: #292929;
   color: #fff;
@@ -845,8 +864,8 @@ section {
   margin-right: 0.25rem;
   border-radius: 0.25rem;
   text-align: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 4.25rem;
+  height: 4.25rem;
   transition: 0.3s;
 }
 
@@ -863,7 +882,7 @@ section {
   border-radius: 0.5rem;
   box-shadow: 0px 0px 0.625rem 0.125rem rgba(255, 255, 255, 0.1);
   border: 0.063rem solid #0d6aed;
-  width: 100%;
+  width: 350px;
   max-width: 400px;
   margin: auto;
 }
@@ -1001,22 +1020,23 @@ section {
   }
 
   .footer .footer-top .footer-info h4 {
-    font-size: 1.25rem;
+    font-size: 2.25rem;
   }
 
   .footer .footer-top .footer-info p {
-    font-size: 0.65rem;
+    font-size: 1.65rem;
+    line-height: 1.5;
   }
 
   .footer .footer-top .social-links a {
-    width: 1.75rem;
-    height: 1.75rem;
-    font-size: 0.9rem;
+    width: 4.75rem;
+    height: 4.75rem;
+    font-size: 3.9rem;
   }
 
   .footer .footer-top form,
   .footer .footer-top .footer-newsletter form {
-    width: 100%;
+    width: 340px;
   }
 
   .footer .footer-top form input[type="text"],
@@ -1031,6 +1051,20 @@ section {
   .footer .footer-top .footer-newsletter form input[type="email"] {
     margin-bottom: 0.625rem;
   }
+
+  .social-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .conmain {
+    flex-direction: column;
+  }
+
 }
 
 @media(max-width : 991px) {

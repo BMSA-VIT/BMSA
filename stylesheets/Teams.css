@@ -21,9 +21,10 @@
   padding: 0px 25px;
   justify-items: center;
   grid-template-areas: 
-    ". card1 card2 card3 ."
-    "card4 card5 card6 card7 card8"
-    "card9 card10 card11 card12 card13";
+    ". card1 card2 ."
+    "card3 card4 card5 card6"
+    "card7 card8 card9 card10"
+    "card11 card12 card13 card14";
 }
 
 /* Assign each card to a specific grid area */
@@ -40,6 +41,7 @@
 .team-member-card:nth-child(11) { grid-area: card11; }
 .team-member-card:nth-child(12) { grid-area: card12; }
 .team-member-card:nth-child(13) { grid-area: card13; }
+.team-member-card:nth-child(14) { grid-area: card14; }
 
 /* Tablet screen adjustments */
 @media (max-width: 1199px) {
@@ -49,7 +51,7 @@
       "card4 card5 card6"
       "card7 card8 card9"
       "card10 card11 card12"
-      "card13 . .";
+      "card13 card14 .";
   }
 }
 
@@ -64,7 +66,7 @@
       "card7 card8"
       "card9 card10"
       "card11 card12"
-      "card13 .";
+      "card13 card14";
   }
 }
 
@@ -84,7 +86,8 @@
       "card10"
       "card11"
       "card12"
-      "card13";
+      "card13"
+      "card14";
   }
 }
 
