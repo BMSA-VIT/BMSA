@@ -175,6 +175,10 @@ a.logo {
   /* background-color: var(--bg-color); */
 }
 
+#marque {
+  margin-top: 100px;
+}
+
 /* Main Section  */
 section {
   /* background-image: linear-gradient(to left, #13385c 0%, black 100%); */
@@ -1185,6 +1189,10 @@ section {
   .event-container .event-box{
     height: 90vh;
   }
+
+  #marque {
+  margin-top: 10px;
+}
 
 
 }
